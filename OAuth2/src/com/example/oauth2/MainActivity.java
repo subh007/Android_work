@@ -111,7 +111,7 @@ public class MainActivity extends Activity {
 //		  service.accessKey = "AIzaSyB7gm3XDcsAHt4ScQWPCgP3HmZXU0AqUqs";
 //		  service.setApplicationName("Google-TasksSample/1.0");
        try{
-		URL url = new URL("https://www.googleapis.com/tasks/v1/users/@me/lists/?key=" + "AIzaSyBwSworr3chko9nTLv_VcSceh3TRcvDuAM");
+		URL url = new URL("https://www.googleapis.com/tasks/v1/users/@me/lists/?key=" + "My_Api_Key");
 		URLConnection conn = (HttpURLConnection) url.openConnection();
         //((HttpURLConnection)conn).setRequestMethod("GET");
 
